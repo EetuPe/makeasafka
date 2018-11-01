@@ -78,14 +78,14 @@
 
 .desc{
 	position: relative;
-	top: -150px;
+	top: -200px;
 	right: -900px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .price{
 	position: relative;
-	top: -420px;
+	top: -480px;
 	right: -1066px;
 	font-size: 30px;
 	color:#628DBC;
