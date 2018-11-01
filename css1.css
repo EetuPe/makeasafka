@@ -4,6 +4,7 @@ header{
 	font-size: 72px;
 	background-color:#56a9d8;
     padding: 0px 0px;
+	border-radius: 5px;
 }
 
 header:hover{
