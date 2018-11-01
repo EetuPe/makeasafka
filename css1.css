@@ -45,7 +45,7 @@ body{
   float: right;
   position: absolute;
     right: 10px;
-    top: 100px;
+    top: 90px;
 }
 
  @media screen and (max-width: 500px) {
