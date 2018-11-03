@@ -1,29 +1,19 @@
 header{
-	color: #000000;
+	color: #f9e8f9;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 72px;
-	background-color:#56a9d8;
+	background-color:#8EA9BB;
     padding: 0px 0px;
-	border-radius: 5px;
 }
 
 header:hover{
 	color: white;
 }
 
-body{
-	background="background.jpg";
-}
-
-.map{
-	position: relative;
-    right: 10px;
-    top: 90px;
-}
 
 .header a {
   float: left;
-  color: #51184e;
+  color:#1D1B2F;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -39,20 +29,20 @@ body{
 }
 
 .header a:hover {
-  background-color: #FDBA70;
-  color: #F4F479;
+  background-color:#80B9E1;
+  color: #282739;
 }
 
 .header a.active {
-  background-color:#F4F479;
-  color: #FD595C;
+  background-color:#252742;
+  color:#7AA0CF;
 }
 
 .header-right {
   float: right;
-  position: relative;
+  position: absolute;
     right: 10px;
-    top: 90px;
+    top: 100px;
 }
 
  @media screen and (max-width: 500px) {
@@ -93,4 +83,27 @@ body{
 
 .order:hover{
 	font-weight: 600;
+}
+
+.poster1{
+	width: 500px;
+	border-radius: 8px;
+	position: relative;
+	left: 780px
+}
+
+.poster2{
+	width: 500px;
+	border-radius: 8px;
+	position: relative;
+	left: -500px;
+}
+
+.finlayson{
+	position: relative;
+	top: -400px;
+	height: 500px;
+	left: 620px;
+	border-radius: 8px;
+	
 }

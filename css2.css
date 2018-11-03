@@ -34,9 +34,6 @@
 
 .header-right {
   float: right;
-  position: relative;
-    right: 10px;
-    top: 90px;
 }
 
  @media screen and (max-width: 500px) {
