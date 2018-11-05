@@ -54,3 +54,9 @@
 	left: 250px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
+.candy{
+	position:relative;
+	top: 100px;
+	width: 1500px;
+}
