@@ -57,6 +57,40 @@ header:hover{
   }
 }
 
+.map{
+    position: relative;
+    top: -30px;
+	left: 700px;
+}
+
+.text1{
+    position: relative;
+    left:510px;
+    top:-300px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+}
+
+.text2{
+    position: relative;
+    left:510px;
+    top:-250px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+}
+.text3{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+}
+
+.text4{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	position: relative;
+    top: -500px;
+	left: 700px;
+}
+
 .safkaboximg{
 	border-radius: 5px;
 	height: 400px;
@@ -89,21 +123,23 @@ header:hover{
 	width: 500px;
 	border-radius: 8px;
 	position: relative;
-	left: 780px
+	left: 5px;
+    top: 450px;
 }
 
 .poster2{
 	width: 500px;
 	border-radius: 8px;
 	position: relative;
-	left: -500px;
+	left: 5px;
+    top: -550px;
 }
 
 .finlayson{
 	position: relative;
-	top: -400px;
+	top: -500px;
 	height: 500px;
-	left: 620px;
+	left: 5px;
 	border-radius: 8px;
 	
 }
