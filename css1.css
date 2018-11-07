@@ -1,145 +1,165 @@
-header{
-	color: #f9e8f9;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 72px;
-	background-color:#8EA9BB;
+header {
+    color: #f9e8f9;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 72px;
+    background-color: #8EA9BB;
     padding: 0px 0px;
 }
 
-header:hover{
-	color: white;
+header:hover {
+    color: white;
 }
 
 
 .header a {
-  float: left;
-  color:#1D1B2F;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-  font-family: "Arial Black", Gadget, sans-serif;
+    float: left;
+    color: #1D1B2F;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
- .header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .header a:hover {
-  background-color:#80B9E1;
-  color: #282739;
+    background-color: #80B9E1;
+    color: #282739;
 }
 
 .header a.active {
-  background-color:#252742;
-  color:#7AA0CF;
+    background-color: #252742;
+    color: #7AA0CF;
 }
 
 .header-right {
-  float: right;
-  position: absolute;
+    float: right;
+    position: absolute;
     right: 10px;
     top: 100px;
 }
 
- @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-	font-family: "Arial Black", Gadget, sans-serif;
-  }
-  .header-right {
-    float: none;
-  }
+@media screen and (max-width: 768) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    .header-right {
+        float: none;
+    }
+
+    .text1 {
+        font-size: 0.7em;
+    }
+
+    .text2 {
+        font-size: 0.7em;
+    }
 }
 
-.map{
+.map {
     position: relative;
     top: -30px;
-	left: 700px;
+    left: 700px;
 }
 
-.text1{
+.text1 {
     position: relative;
-    left:510px;
-    top:-300px;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 18px;
+    left: 510px;
+    top: -300px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
 }
 
-.text2{
+.text2 {
     position: relative;
-    left:510px;
-    top:-250px;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 18px;
-}
-.text3{
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 18px;
+    left: 510px;
+    top: -250px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
 }
 
-.text4{
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 18px;
-	position: relative;
+.text3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+}
+
+.text4 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    position: relative;
     top: -500px;
-	left: 700px;
+    left: 700px;
 }
 
-.safkaboximg{
-	border-radius: 5px;
-	height: 400px;
-	position: relative;
-	top: 100px;
+.safkaboximg {
+    border-radius: 5px;
+    height: 400px;
+    position: relative;
+    top: 100px;
 }
-.order{
-	position: relative;
-	top: -150px;
-	right: -1200px;
-    width:220px;
-    height:40px;
-    text-align:center;
-    color:#FFFF6B;
-    text-decoration:none;
-    line-height:43px;
+
+.order {
+    position: relative;
+    top: -150px;
+    right: -1200px;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    color: #FFFF6B;
+    text-decoration: none;
+    line-height: 43px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 24px;
+    font-size: 24px;
     display: block;
     margin: 30px;
-	background-color: #D8A165;
-	
+    background-color: #D8A165;
+
 }
 
-.order:hover{
-	font-weight: 600;
+.order:hover {
+    font-weight: 600;
 }
 
-.poster1{
-	width: 500px;
-	border-radius: 8px;
-	position: relative;
-	left: 5px;
+.poster1 {
+    width: 500px;
+    border-radius: 8px;
+    position: relative;
+    left: 5px;
     top: 450px;
 }
 
-.poster2{
-	width: 500px;
-	border-radius: 8px;
-	position: relative;
-	left: 5px;
+@media screen and (max-width: 500px) {
+    .poster1 {
+        float: none;
+        display: block;
+        text-align: left;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+}
+
+.poster2 {
+    width: 500px;
+    border-radius: 8px;
+    position: relative;
+    left: 5px;
     top: -550px;
 }
 
-.finlayson{
-	position: relative;
-	top: -500px;
-	height: 500px;
-	left: 5px;
-	border-radius: 8px;
-	
+.finlayson {
+    position: relative;
+    top: -500px;
+    height: 500px;
+    left: 5px;
+    border-radius: 8px;
+
 }

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <title>My first responsive design | Bootstrap implementation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Makea Safka OY</a>
+            <a href="indexm.html">In English</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="indexmfi.html">Koti <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexmfi.html">Tietoa Meistä</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="safkaboxmfi.html">Kauppa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="policymfi.html">Ehdot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1 class="display-2">Makea Safka OY</h1>
+                    <p class="lead">Olemme iso epäterveellisen syömisen yritys:
+                        Makea Safka OY <br>
+                        Terveellisen syömisen aikakaudella - viiden euron smoothien,
+                        ja kalliiden k-market-salaattien, esittelemme myymälän
+                        Joka varmistaa, etta pidät elamasi makeana...
+                        Meillä on myymälöitä koko Suomessa, ja meidän pääkonttori
+                        On Tampereella. Nauti Herkuista!</p>
+                    <a class="btn btn-lg btn-primary" href="indexmfi" role="button">Lisätietoja Meistä &raquo;</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- wider column -->
+            <div class="col-md-8 mb-4">
+                <h2 class="display-3">Mitä Myymme</h2>
+                <p>
+                    Myymme kuuluisaa Domino's pirtelöä, <br>
+                    Fazer Christmas Special suklaata,<br> Skittles, Skittles 1998 edition<br>
+                    Ja monia muita tuotteita.
+                </p>
+                <!-- nested columns -->
+                <div class="row">
+                    <div class="col-md">
+                        <h3 class="display-4">Kaikki tuotteet ovat 20%:n alennuksessa koko marraskuun ajan</h3>
+                        <img class="poster2m" src="poster2.png" width="500" height="500" alt="post2">
+                        <a href="safkabox.html" class="btn btn-primary">Kauppa</a>
+                    </div>
+                    <div class="col-md">
+                        <h3 class="display-4">Meidän Suosituin Tuote</h3>
+                        <img class="poster1m" src="poster1.png" width="500" height="500" alt="post1">
+                        <a href="safkabox.html" class="btn btn-primary">Kauppa</a>
+                    </div>
+                    <div class="col-md">
+                        <h3 class="display-4">Missä Sijaitsemme</h3>
+                        <p>
+                            Meidän kauppa löytyy Tampeereelta, Keskustorin läheltä.
+                        </p>
+                        <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A0b3b40468a3be909b6f7a482d14b1e0187e0dee875e0f92ac9a5a32f2d3f3d88&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <!-- narrower column with sidebar links -->
+            </div>
+            <div class="col-md-4 mb-4">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="safkabox.html">Kauppa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexmfi.html">Tietoa Meistä</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="policymfi.html">Ehdot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Makea Safka OY</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
